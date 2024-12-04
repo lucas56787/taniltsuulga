@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+ box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 33px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+nav .logo {
+    color:#33c7ff  ;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    gap: 76px;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #6f6f6f;
+    font-weight: 500;
+    
+}
+.menu a:hover{
+    color: #33c7ff;
+    transition: 0.6S;
+}
+/* tom zuragtai hesgiin code ehlej bna */
+#showcase {
+    background: url('../images/bg.jpg')no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    background: rgba(0, 119, 255, 0.4);
+    text-align: center;
+}
+.showcase-content h1 {
+    font-size: 54px;
+}
+.showcase-content span {
+    color: #33c7ff;
+}
+.btn{
+    background: #33c7ff;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 60px;
+    
+}
+.showcase-content p {
+    margin-top: 30px;
+}
+/* minii tuhai hesgiin cood */
+#aboutme{
+    padding: 
+    50px;
+}
+#aboutme h3 {
+   text-align: center; 
+   margin-top: 50px;
+   margin-bottom: 80px;
+   font-size: 24px;
+}
+.about-content{
+    display: flex;
+    gap: 100px;
+}
+.introduction h6 {
+    font-size:18px;
+    line-height: 1.8;
+    
+}
+.introduction p {
+    border-bottom: 2px rgb(0, 162, 255) solid;
+    padding-bottom: 50px;
+    line-height: 2;
+    color: #999fb3;
+    margin-top: 35px;
+}
+#album {
+                                        
+    justify-content: center;
+    gap: 20px;
+}
+.flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.gap20 {
+    gap: 20px;
+}
+#album img:hover {
+    
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.album-left,
+.album-right,
+.mid {
+    width: 220px;
+    overflow: hidden;
+}
